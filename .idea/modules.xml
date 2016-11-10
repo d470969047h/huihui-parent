@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/huihui-common/huihui-common.iml" filepath="$PROJECT_DIR$/huihui-common/huihui-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huihui-manager/huihui-manager.iml" filepath="$PROJECT_DIR$/huihui-manager/huihui-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huihui-manager-mapper/huihui-manager-mapper.iml" filepath="$PROJECT_DIR$/huihui-manager-mapper/huihui-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huihui-manager-pojo/huihui-manager-pojo.iml" filepath="$PROJECT_DIR$/huihui-manager-pojo/huihui-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huihui-manager-service/huihui-manager-service.iml" filepath="$PROJECT_DIR$/huihui-manager-service/huihui-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huihui-manager-web/huihui-manager-web.iml" filepath="$PROJECT_DIR$/huihui-manager-web/huihui-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huihui-parent.iml" filepath="$PROJECT_DIR$/huihui-parent.iml" />
+    </modules>
+  </component>
+</project>

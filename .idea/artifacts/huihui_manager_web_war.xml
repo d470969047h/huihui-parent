@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="huihui-manager-web:war">
+    <output-path>$PROJECT_DIR$/huihui-manager-web/target</output-path>
+    <root id="archive" name="huihui-manager-web.war">
+      <element id="artifact" artifact-name="huihui-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>
