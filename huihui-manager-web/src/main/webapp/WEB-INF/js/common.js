@@ -19,7 +19,7 @@ Date.prototype.format = function(format){
     return format; 
 };
 
-var TT = TAOTAO = {
+var HH = HUIHUI = {
 	// 编辑器参数
 	kingEditorParams : {
 		//指定上传文件参数名称
@@ -84,7 +84,7 @@ var TT = TAOTAO = {
         	$(e).click(function(){
         		var form = $(this).parentsUntil("form").parent("form");
         		//打开图片上传窗口
-        		KindEditor.editor(TT.kingEditorParams).loadPlugin('multiimage',function(){
+        		KindEditor.editor(HH.kingEditorParams).loadPlugin('multiimage',function(){
         			var editor = this;
         			editor.plugin.multiImageDialog({
 						clickFn : function(urlList) {
@@ -147,7 +147,7 @@ var TT = TAOTAO = {
     },
     
     createEditor : function(select){
-    	return KindEditor.create(select, TT.kingEditorParams);
+    	return KindEditor.create(select, HH.kingEditorParams);
     },
     
     /**
@@ -190,7 +190,7 @@ var TT = TAOTAO = {
     },
     
     changeItemParam : function(node,formId){
-    	$.getJSON("/item/param/query/itemcatid/" + node.id,function(data){
+    	$.getJSON("${ctx}/item/param/query/itemcatid/" + node.id,function(data){
 			  if(data.status == 200 && data.data){
 				 $("#"+formId+" .params").show();
 				 var paramData = JSON.parse(data.data.paramData);
@@ -234,7 +234,7 @@ var TT = TAOTAO = {
     initOnePicUpload : function(){
     	$(".onePicUpload").click(function(){
 			var _self = $(this);
-			KindEditor.editor(TT.kingEditorParams).loadPlugin('image', function() {
+			KindEditor.editor(HH.kingEditorParams).loadPlugin('image', function() {
 				this.plugin.imageDialog({
 					showRemote : false,
 					clickFn : function(url, title, width, height, border, align) {
